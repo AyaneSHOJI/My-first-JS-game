@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first JavaScript game</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- CSS FA Icons -->
+    <link rel="stylesheet" href="public/css/all.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt">My first JavaScript game</h1>
+        <div class="field">
+            <div class="square"><i class="far fa-eye"></i> <i class="far fa-eye"></i>
+                <br>--------
+            </div>
+        </div>
+
+        <div class="control">
+            <!-- Ensemble de boutons de directions -->
+            <section class="btn-group margin-y">
+                <h3 class=" margin-y">You can move with buttons !</h3>
+                <button class="up">Up</button>
+                <div class="left-right">
+                    <button class="left">Left</button>
+                    <button class="right">Right</button>
+                </div>
+                <button class="down">Down</button>
+            </section>
+            <!-- bouton pour changer de couleur -->
+            <div class="color margin-y">
+                <h3>You can change your color !</h3>
+                <input type="color" name="btnColor" class="btnColor">
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>

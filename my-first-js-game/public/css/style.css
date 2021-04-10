@@ -1,0 +1,72 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0FAFC;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive !important;
+    text-align: center;
+}
+
+.margin-y {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.control {
+    width: 800px;
+    margin: auto;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    background-color: lightgreen;
+    position: relative;
+    margin: auto;
+}
+
+.btn-group {
+    position: relative;
+    top: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-family: 'Fredoka One', cursive !important;
+    padding: 1rem 1.5rem;
+    background-color: yellow;
+    border-radius: 2rem;
+    font-size: large;
+    display: block;
+    margin: auto;
+}
+
+.control {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: teal;
+    border: 2px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
